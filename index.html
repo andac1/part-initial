@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGI Fridays Restaurant & Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="/images/logo.png" width="200" height="70" alt="Web Sitesi Logosu" /></a>
+        </div>
+
+        <nav class="navbar">
+
+            <ul>
+                <li class="navbar-li"><a href="index.html">Main Page</a></li>
+                <li class="navbar-li"><a href="index.html">Menu Listing</a></li>
+                <li class="navbar-li"><a href="location.html">Locations</a></li>
+                <li class="navbar-li"><a href="index.html">Campaign</a></li>
+                <li class="navbar-li"><a href="about.html">About us</a></li>
+
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <div class="main">
+        <div class="owl-carousel owl-theme" data-interval="10000">
+            <div class="item"><img style="height: 550px; width: 1530px;" src="/images/slider1" alt=""></div>
+            <div class="item"><img style="height: 550px; width: 1530px;" src="/images/slider2" alt=""></div>
+            <div class="item"><img style="height: 550px; width: 1530px;" src="/images/slider3" alt=""></div>
+            <div class="item"><img style="height: 550px; width: 1530px;" src="/images/slider4" alt=""></div>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <a href=""><img style="height: 550px; width: 1530px;" src="" alt=""></a>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img style="height: 550px; width: 1530px;" src="" alt=""></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+
+        <div class="container">
+            <hr style="margin-bottom: 20px;">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>2H3F</h4>
+                    <ul>
+                        <li><a href="#">Privacy </a></li>
+                        <li><a href="complaint.html">Complaint </a></li>
+                        <li><a href="#">Opinion the user</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <input type="email" name="email" id="input-email" placeholder="E-mail">
+                    <textarea name="textarea" class="textarea" id="textarea-email" cols="30" rows="5"
+                        placeholder="Type Here..."></textarea><br>
+                    <div class="buttons">
+                        <button>Send</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="footer-bottom">
+                <br>
+                <p>copyright &copy; 2021 TGI Fridays Restaurant & Bar designed <span>2H3F</span></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- javascript -->
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.js"></script>
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>
